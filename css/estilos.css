@@ -1,0 +1,62 @@
+/*-----------------------------------*/
+/* estilos generales */
+/*-----------------------------------*/
+:root {
+  --separacion: 30px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  height: 100vh;
+  background: #DEDEDE;
+  color: #000;
+}
+.formulario {
+  display: block;
+  width: 90%;
+  max-width: 500px;
+  background: #F3F3F3;
+  padding: var(--separacion);
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 4px;
+  margin: auto;
+}
+/*-----------------------------------*/
+/* estilos del h1 */
+/*-----------------------------------*/
+.formulario h1 {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: var(--separacion);
+}
+/*-----------------------------------*/
+/* estilos de los botones */
+/*-----------------------------------*/
+.formulario button {
+  display: block;
+  width: 100%;
+  background: #00796b;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 0;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: var(--separacion);
+  transition: all .3S ease;
+  cursor: pointer;
+}
+.formulario button i {
+  margin-right: 10px;
+}
+.formulario button:hover {
+  background: #202124;
+}
+.formulario button:active {
+  transform: scale(.95);
+}
